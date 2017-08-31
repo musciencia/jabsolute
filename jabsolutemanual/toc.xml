@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE toc
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/toc_1_0.dtd">
+
+<toc version="1.0">
+<tocitem image="toplevelfolder" target="jabsolutemanual" text="JAbsolute Manual">
+    <tocitem target="intro" text="Introduction"/>
+    <tocitem target="getting" text="Getting started"/>    
+    <tocitem target="main" text="The main panel">
+      <tocitem target="keyboard" text="The keyboard"/>
+      <tocitem target="controls" text="Controls panel"/>
+      <tocitem target="settings" text="Settings panel"/>
+      <tocitem target="score" text="Score and Timer"/>
+    </tocitem>
+    <tocitem target="menus" text="The menus">
+      <tocitem target="file" text="File">
+         <tocitem target="newUser" text="New User"/>
+         <tocitem target="currentUser" text="Current User"/>
+         <tocitem target="preferences" text="Preferences"/>
+         <tocitem target="usersArea" text="Users' area"/>         
+      </tocitem>
+      <tocitem target="mode" text="Mode">
+         <tocitem target="test" text="Test mode"/>
+         <tocitem target="practice" text="Practice mode"/>
+         <tocitem target="play" text="Play mode"/>
+      </tocitem>
+    </tocitem>
+</tocitem>
+</toc>
+

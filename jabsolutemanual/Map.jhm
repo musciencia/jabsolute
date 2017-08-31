@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE map
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/map_1_0.dtd">
+
+<map version="1.0">
+  <mapID target="jabsolutemanual" url="jabsolutemanual.html" />
+  <mapID target="intro" url="jabsolutemanual.html#intro" />
+  <mapID target="getting" url="jabsolutemanual.html#getting-started" />
+  <mapID target="main" url="jabsolutemanual.html#main-panel" />
+  <mapID target="keyboard" url="jabsolutemanual.html#keyboard" />
+  <mapID target="controls" url="jabsolutemanual.html#controls-panel" />
+  <mapID target="settings" url="jabsolutemanual.html#settings-panel" />
+  <mapID target="score" url="jabsolutemanual.html#score-and-timer" />
+  <mapID target="menus" url="jabsolutemanual.html#menus" />
+  <mapID target="file" url="jabsolutemanual.html#file" />
+  <mapID target="newUser" url="jabsolutemanual.html#new-user" />
+  <mapID target="currentUser" url="jabsolutemanual.html#current-user" />
+  <mapID target="preferences" url="jabsolutemanual.html#preferences" />
+  <mapID target="usersArea" url="jabsolutemanual.html#users-area" />
+  <mapID target="mode" url="jabsolutemanual.html#Mode" />
+  <mapID target="test" url="jabsolutemanual.html#test-mode" />
+  <mapID target="practice" url="jabsolutemanual.html#practice-mode" />
+  <mapID target="play" url="jabsolutemanual.html#play-mode" />
+</map>
+
