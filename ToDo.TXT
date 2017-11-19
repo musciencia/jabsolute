@@ -1,4 +1,4 @@
-﻿Pendientes para PerfectPitchX
+Pendientes para JAbsolute
 
 -AboutBox para diferentes plataformas
 
