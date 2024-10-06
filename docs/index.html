@@ -1,11 +1,429 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>JAbsolute User Guide</title>
+    <meta name="description" content="A simple HTML/CSS DocumentationTemplate">
+    <meta name="author" content="Carlos Yllobre">
+
+    <link rel="stylesheet" href="style.css?">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,600&display=swap" rel="stylesheet">
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+
+
 </head>
+
 <body>
-    JAbsolute Docs
+
+    <div class="navbar clear nav-top">
+        <div class="row content">
+            <a href="#"><img class="logo" src="JAbsoluteLogo.png"></a>
+        </div>
+    </div>
+
+    <div class="container clear">
+        <div class="row wrapper">
+
+            <div class="sidepanel">
+
+                <a class="title" href="#introduction">Introduction</a>
+
+                <div class="divider left"></div>
+
+                <a class="title" href="#getting-started">Getting started</a>
+
+                <div class="divider left"></div>
+
+                <a class="title" href="#the-main-panel">The main panel</a>
+                <a class="section" href="#keyboard">Keyboard</a>
+                <a class="section" href="#controls-panel">Controls panel</a>
+                <a class="section" href="#settings-panel">Settings panel</a>
+                <a class="section" href="#time-panel">Time panel</a>
+                <a class="section" href="#score-panel">Score panel</a>
+
+                <div class="divider left"></div>
+
+                <a class="title" href="#menus">Menus</a>
+
+                <a class="section" href="#file">File</a>
+                <a class="sub-section" href="#new-user">New user</a>
+                <a class="sub-section" href="#current-user">Current user</a>
+                <a class="sub-section" href="#preferences">Preferences</a>
+                <a class="sub-section" href="#stop-test">Stop test</a>
+                <a class="sub-section" href="#users-area">Users' area</a>
+
+                <a class="section" href="#mode">Mode</a>
+                <a class="sub-section" href="#test-mode">Test mode</a>
+                <a class="sub-section" href="#practice-mode">Practice mode</a>
+                <a class="sub-section" href="#play-mode">Play mode</a>
+
+                <div class="divider left"></div>
+
+            
+             <div class="space double"></div>
+
+            </div>
+
+            <div class="right-col">
+            
+
+                <h1 id="introduction">Introduction</h1>
+                
+                <p>Welcome to JAbsolute! This is a great ear-training Java application, an
+                    invaluable tool that will help you develop <strong>absolute pitch</strong>. The
+                    most important thing to keep in mind is to be <strong>perseverant</strong>. A
+                    20 minute daily practice is all you need. But be consistent, don't miss a day.
+                    JAbsolute runs under Java, hence its name. It should work on any plataform
+                    supported by the Java Virtual Machine. The application has been tested on
+                    Linux, Windows Vista, and MacOS X. The program is in constant development, so
+                    please feel free to contact me for suggestions and bug reports.</p>  
+                    
+                    
+                <div class="divider" style="width:24%; margin:30px 0;"></div>
+    
+
+                <h1 id="getting-started">Getting started with JAbsolute</h2>
+
+                <p>JAbsolute is a friendly and intuitive program. I&rsquo;m sure you can learn
+                it right away by just playing around. In this section I'll tell you the basics
+                you need to know to start using your journey to developing absolute pitch with
+                JAbsolute. I'm assuming you already have a working copy of JAbsolute installed
+                on your computer. If that is not the case, please read the installation
+                instrutions that came with the software.</p>
+                
+                <p>After launching the program, the first thing you need to do is to select a
+                user from the <a name="File" id="File" href="#file">File menu</a>. The program
+                won&rsquo;t let you do anything, unless one user is selected. If no user is
+                listed in the <a href="#users-area-image">users area</a>, create a <a
+                href="#new-user">New user</a>. You don&rsquo;t need a password, just type your
+                name in the dialog box.</p>
+                
+                <p><a name="new-user-text-area"></a><img src="images/new-user-text-box.jpeg"
+                alt="New User Text Box"></p>
+                
+                <p>The second thing you need to do is to select one mode from the <a
+                href="#mode">Mode menu</a>. Once you have selected one of the three modes, <a
+                href="#test-mode">Test</a>, <a href="#practice-mode">Practice</a> or <a
+                href="#test-mode">Play</a>, you are ready to start your ear-training
+                experience. If you selected Test or Practice modes just press the start button.
+                If you are in Play mode just start playing. In play mode you can also change
+                the color of the keys by pressing the up and down arrows. It is very easy, have
+                fun and enjoy!</p>
+                    
+                <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+                <h1><a name="main-panel"></a>The main panel</h1>
+
+                <p><a name="main-panel-image"></a><img
+                src="images/main-panel-with-annotations.png" alt="Main Panel"></p>
+
+                <p>As you can see, the <a href="#main-panel-image">main panel</a> consists of
+                five elements that will be discussed in more detail in the following sections.
+                These elements are: The keyboard (1), controls(2), settings(3), time (4) and
+                score(5).</p>
+
+                <h2 id="keyboard">The Keyboard</h2>
+
+                <p>When in <a href="#play-mode">play mode</a>, the keyboard can be used to play
+                single notes or chords, just like a piano. You can either use the mouse or the
+                computer's keyboard. By default, keystrokes are assigned to notes as shown in
+                the image.</p>
+
+                <p><a name="keyboard-layout-image"></a> <img src="images/keyboard-layout.jpeg"
+                alt="Default Keyboard Layout"></p>
+
+                <p>You can play an octave higher by pressing <code>alt + key</code>. You can
+                play an octave lower by pressing <code>shift + key</code>. And finally you can
+                play two octaves lower by pressing <code>alt + shift + key</code>. You can
+                assign different notes to different letters in the preferences dialog box. When
+                in <a href="#test-mode">test mode</a> or <a href="#practice-mode">practice
+                mode</a>, you use the keyboard to answer the exercises. A red key means <a
+                href="#wrong-answer-image">wrong answer</a>, and a blue key means <a
+                href="#right-answer-image">right answer</a>, and a light blue key means the
+                right answer was <a href="#given-answer-image">given to you</a> by the
+                application. <strong>Very important note</strong>: when the program plays 2 or
+                more notes at the same time, you have to answer them in order, one at a time,
+                starting from the lowest note. You cannot continue untill all notes from the
+                chord have been correctly answered.</p>
+
+                <p><a name="wrong-answer-image"></a><img src="images/wrong-answer.jpeg"
+                alt="Wrong Answer Image"></p>
+
+                <p><a name="right-answer-image"></a><img src="images/right-answer.jpeg"
+                alt="Right Answer Image"></p>
+
+                <p><a name="given-answer-image"></a><img src="images/given-answer.jpeg"
+                alt="Given Answer Image"></p>
+
+                <h2 id="controls-panel">Controls panel</h2>
+
+                <p><a name="controls-panel-image"></a><img src="images/controls-panel.jpeg"
+                alt="Controls Panel"></p>
+
+                <p>The controls panel consists of three buttons: start, repeat and answer.
+                These buttons only work in <a href="#test-mode">test</a> and <a
+                href="#practice-mode">practice</a> modes. </p>
+
+                <p><strong>Start</strong>. Press this button to start the exercise.</p>
+
+                <p><strong>Repeat</strong>. Press this button to replay the notes from the last
+                example. You can perform this operation as many times as you need without
+                loosing points.</p>
+
+                <p><strong>Answer</strong>. If you have no idea what the answer is, press this
+                button. The program will tell you the right answer. Unfortunately you will
+                loose points.</p>
+
+                <h2><a name="settings-panel"></a>Settings Panel</h2>
+
+                <p><a name="settings-panel-image"></a><img src="images/settings-panel.jpeg"
+                alt="Settings Panel"></p>
+
+                <p>The settings panel contains the parameters needed for each exercise. In <a
+                href="#practice-mode">practice mode</a>, all settings are enabled and can be
+                modified. In <a href="#test-mode">test mode</a>, settings are automatically
+                loaded according to your current level. During <a href="#play-mode">play
+                mode</a>, only <strong>chord type</strong> and <strong>instruments</strong>
+                parameters are enabled.</p>
+
+                <p><strong>Notes per chord</strong>. This is the number of notes the program
+                will play at the same time. The program will play for you one or more notes at
+                the same time depending on the number you enter here. In order to use this
+                setting you need to set <em>Chord Type</em> to <em>None</em>.</p>
+
+                <p><strong>Time</strong>. Sets the duration of the exercise in minutes. The
+                default is 5 minutes.</p>
+
+                <p><strong>Chord type</strong>. Sets the type of chord to be played by the
+                program. If you choose none, the chord will depend on the number set in Notes
+                per chord. If you choose random, the program will randomly select a chord to be
+                played.</p>
+
+                <p><strong>Instrument</strong>. You can choose different instruments depending
+                on the sound banks installed on your computer. If you select random, the
+                program will randomly select an instrument each time a note is played. Piano is
+                the default instrument loaded.</p>
+
+                <p><strong>Octave sensitive</strong>. If this radio button is checked, you will
+                <a href="#right-answer-image">score right</a> <strong>only</strong> if you
+                guess the exact note and octave that was played to you. In other words, you
+                need to correctly specify the note and octave to get it right. If the radio
+                button is not checked, the answer will be right if you get the right note no
+                matter in which octave you play.</p>
+
+                <p><strong>The note chooser</strong>. The note chooser tells you which notes
+                are part of the exercise. During <a href="#practice-mode">practice mode</a> you
+                can select the notes you want the program to randomly play for you.</p>
+
+                <h2><a name="score-and-timer"></a></h2>
+
+                <h2 id="time-panel">Time Panel</h2>
+
+                <p><img alt="Time Panel Image" src="images/time-panel.jpeg" width="132"
+                height="135"></p>
+
+                <p>The time panel indicates the remaining time during the <a
+                href="#test-mode">test</a> and <a href="#practice-mode">practice</a> modes. The
+                timer starts immediately after you press the start button. If you try to change
+                modes or terminate the exercise, the program will warn you. You may press esc
+                or select stop test from the File menu. If you don't finish the test, the data
+                will be lost and won't be saved in your history.</p>
+
+                <h2 id="score-panel">Score Panel</h2>
+
+                <p><img alt="Score Panel Image" src="images/score-panel.jpeg" width="134"
+                height="132"></p>
+
+                <p>These score panel indicate your scores during <a href="#test-mode">test</a>
+                and <a href="#practice-mode">practice</a> modes. The score shows you how many
+                wrong and right answers you have. In order to pass to the next level you need a
+                score of 90%. However, speed is also important, if you are to slow, even if you
+                have a 100% you will have to repeat your current level.</p>
+
+                <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+                <h1 id="menus"></a>Menus</h1>
+
+                <p><img alt="Menus Image" src="images/menus.jpeg" width="152" height="22"></p>
+
+                <h2 id="file">File</h2>
+
+                <p>The File menu is where you manage everything related to users and
+                program&rsquo;s preferences. JAbsolute is a multi-user program. It keeps track
+                of your improvements. Each user has its own history and level, which you can
+                save in a text file.</p>
+
+                <p>You cannot select any menu items from the File menu once your Test or
+                Practice session has started. To stop your session press escape and follow the
+                instructions.</p>
+
+                <p><img src="images/file-menu.jpeg" alt="File Menu"></p>
+
+                <h3 id="new-user">New user</h3>
+
+                <p>You can create as many users as you want. You don&rsquo;t need a password,
+                but it is imperative that everybody using this program have their own user
+                account. When selecting <strong>New user</strong> a <a
+                href="#new-user-text-area">dialog appears</a> asking for your user name. If
+                your name is already taken, the program will warn you. After your user account
+                is created you can start working with JAbsolute.</p>
+
+                <h3 id="current-user">Current user</h3>
+
+                <p>The <strong>Curren user</strong> submenu contains several menu items.</p>
+
+                <p><img src="images/current-user-submenu.jpeg" alt="Current User Submenu"></p>
+
+                <p>Use the <strong>Current user</strong> submenu to delete users, view
+                information and history or change user&rsquo;s level. Make sure a user is
+                selected <strong>before</strong> you use one of these options. You can verify
+                who the current user is by looking at the users&rsquo; area or the title bar.
+                Generally the title bar shows the current user name.</p>
+
+                <p><img alt="Title Bar Image" src="images/title-bar.jpeg" width="767"
+                height="26"></p>
+
+                <p><strong>Delete</strong>. After you choose delete from the submenu, the
+                program will warn you. If you are sure you want the current user to be deleted,
+                press OK. The user that is currently selected will be deleted.</p>
+
+                <p><strong>Show information</strong>. To see current user&rsquo;s information,
+                select this item. A dialog box will appear showing your name, current level,
+                and highest level. The current level and highest level are not always the same,
+                you can change your current level, but it can never be above your highest
+                level. In other words, you can repeat your previous levels if you want, but you
+                cannot skip ahead.</p>
+
+                <p><img alt="User Info Image" src="images/user-info.jpeg" width="268"
+                height="134"></p>
+
+                <p><strong>Show history</strong>: The program keeps track of all your tests. By
+                selecting this item you can see a list of all your sessions and scores by date.
+                You may also save this information in a text file with the following path and
+                name ProgramDirectory\user.txt. After you save your information the program
+                will tell you the exact path where your file was saved.</p>
+
+                <p><img alt="User History Image" src="images/user-history.jpeg" width="424"
+                height="330"></p>
+
+                <p><img alt="Save History Image" src="images/save-history.jpeg" width="516"
+                height="117"></p>
+
+                <p><strong>Change level</strong>. You can retake any test that you have done
+                before by selecting this menu item. A dialog box will appear, type a number
+                below or equal to your highest level. Changing your level is useful when you
+                stop practicing for a while and you need to catch up.</p>
+
+                <p><img alt="Change Level Dialog Image" src="images/change-level-dialog.jpeg"
+                width="378" height="156"></p>
+
+                <h3 id="preferences">Preferences</h3>
+
+                <p>There are two tabs where you can change programs settings: keyboard and
+                chords. A midi settings tab will be added in the future.</p>
+
+                <p><a name="chords-tab"></a> <img src="images/preferences-chords.jpeg"
+                alt="Preferences, chords tab"></p>
+
+                <p><strong>Chords</strong>. As you can see in the <a href="#chords-tab">chords
+                tab</a> there are many available chord types you can use during Practice or
+                Play modes. You can select the ones that you want from the list on your left
+                hand side. Hold the <code>ctrl + down</code> while you click on the chord types
+                you want to use. You will see the selected chords on the right hand side.</p>
+
+                <p><img src="images/preferences-keyboard.jpeg"
+                alt="Preferences, keyboard tab"></p>
+
+                <p><strong>Keyboard</strong>. Use this tab to change the keyboard layout.
+                Assign one keystroke to each note. Be careful not to type the same character
+                more than once because the program won&rsquo;t let you.</p>
+
+                <p><em><strong>Note:</strong></em> The keyboard layout may change in future
+                releases. You can send me your comments about its functionality.</p>
+
+                <h3 id="stop-test">Stop Test</h3>
+
+                <p><img alt="Stop Test Image" src="images/stop-test.jpeg" width="183"
+                height="116"></p>
+
+                <p>During a practice or test session, it is not advisable to change modes
+                because the time is running. The program will warn you if you try to change
+                modes or stop the exercise. If you absolutely need to stop your session, you
+                can select this menu item or press the <code>esc</code> key on your
+                computer.</p>
+
+                <h3><a name="users-area"></a>Users Area</h3>
+
+                <p><a name="users-area-image"></a><img src="images/users-area.png"
+                alt="Users Area Image"></p>
+
+                <p>The users area is the one just below the <strong>Stop test</strong> menu
+                item. If you don&rsquo;t see any user listed, it means no users exist. In this
+                case you need to create a <a href="#new-user">new user</a>. The illustration
+                shows three users: Frank, John, and Silvie. Sivlie is currently selected. To
+                select a user just click on it and will become the current user. Only one user
+                can be selected at a time.</p>
+
+                <h2 id="mode">Mode</h2>
+
+                <p><img alt="Mode Menu Image" src="images/mode-menu.jpeg" width="188"
+                height="100"></p>
+
+                <p>There are three modes available: <a href="#test-mode">Test</a>, <a
+                href="#practice-mode">Practice</a> and <a href="#play-mode">Play</a>.</p>
+
+                <h3 id="test-mode">Test mode</h3>
+
+                <p>Select this mode if you want to follow the levels suggested by JAbsolute.
+                You will progressively improve your absolute pitch. The program will tell you
+                which level you are in and your score each time you play. The best part is that
+                you cannot go further if you don&rsquo;t satisfactorily pass each level. In
+                this mode you cannot change any settings, they are always controlled by the
+                program.</p>
+
+                <h3 id="practice-mode">Practice mode</h3>
+
+                <p>Select this mode if you want to have control over the settings. In this mode
+                you are free to practice whatever you feel you need to work on, without the
+                program controlling your learning experience. In this mode, the computer
+                won&rsquo;t keep track of your sessions.</p>
+
+                <h3 id="play-mode">Play mode</h3>
+
+                <p>Select this mode if you only want to play notes, chords, instruments or have
+                some fun! In this mode you can change instruments and play chords. There is a
+                very useful feature in this mode. You can change the colors of each key on the
+                keyboard. To do that, click on the note you want to assign a color to, then
+                press the <code>up</code> and <code>down</code> keys to change the color. </p>
+
+                <p>This is just to help you focus on the idea that pitches are similar than
+                colors in the sense that each one has it own quality that make it recognizable.
+                I recomend that you play each note slowly and try to compare that pitch with a
+                color. Remember, this is just an exercise, you don't need to come up with the
+                same colors every time you perform this experiment, just have fun and look for
+                qualities in the pitches that make them similar to a color. </p>
+
+                <p>Let me give you an example. I can say that the note C sounds serious and
+                calm like the color blue. <strong>To me</strong>, the color dark blue evokes
+                trust, and professionalism. When I hear the note C, it sonds to me like the
+                fahter of the family, a father that you can trust. It is the type of serious,
+                dependable father. This is why, I would assign the color dark blue to the note
+                C. But maybe another day I may change my perception and decide that C is
+                similar than the color green for some reason. I know it sounds kind of
+                subjective and up in the clouds, but it's an invaluable excercise. Plus it's
+                fun!</p>
+
+                <p><a><img alt="Color Piano Image" src="images/color-piano.jpeg" width="253"
+                height="116"></a></p>                
+
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
